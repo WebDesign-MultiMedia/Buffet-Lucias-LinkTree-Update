@@ -6,11 +6,7 @@ body {
 	}
 
 /* Background VIDEO */
-#videoBG{
-    position: fixed;
-    z-index: -1;
-    height: auto;
-}
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -19,11 +15,15 @@ body {
     }
     #videoBG{
         width: 100%;
+        display: flex;
+        z-index: -1;
         height: auto;
     }
   
     .heading{
-        color: rgb(200, 200, 217);
+        color: rgb(45, 165, 51);
+        position:absolute;
+        animation: mexicanColor 1000ms ease-out linear  reverse 1;
     } 
 
     /* LINKS */
@@ -34,31 +34,42 @@ body {
         flex-direction: column;
         align-items: center;
         position: absolute;
+        bottom: 70px;
     }
 
     .fa-utensils{
         padding: 0.5em;
-        color: #8E8E8E
-        ;
+        color: #8E8E8E;
+        text-shadow: 1px 1px 4px white;
     }
     .fa-square-facebook{
         padding: 0.5em;
         color: #1877F2;
+        text-shadow: 1px 1px 3px white;
     }
     .fa-tiktok{
         color: #00f2ea;
         padding: 0.5em;
+        text-shadow: 1px 1px 4px #ff0050;
 
     }
     .fa-whatsapp{
         color: #25D366;
         padding: 0.5em;
+        text-shadow: 1px 1px 4px white;
 
     }
     .fa-map-location-dot{
-        color: #F4B400
-        ;
+        color: #22a022;
+        text-shadow: 2px 1px 4px white;
 
+    }
+
+    .fa-solid:hover{
+        color: rgb(233, 221, 221);
+    }
+    .fa-brands:hover{
+        color: rgb(238, 229, 229);
     }
         
 
@@ -98,7 +109,6 @@ body {
 	
 	text-align: center;
 	max-width: 100%;
-	position: relative;
 	top: 2em;
 	left: 0;
 	font-size: 3.8em;
@@ -156,7 +166,6 @@ body {
 	justify-content: center;
 	flex-direction: row;
 	align-items: center;
-	position: relative;
 	top: 26em;
 	
 }
@@ -165,16 +174,8 @@ body {
  	font-size: 4em;
  	
 }
-.fa-solid:hover{
-	color: #0097CA;	
-	text-shadow: 1px 1px 3px white;
-	
-}
+
 
 .fa-brands{
 	font-size: 3.5em;
-}
-.fa-brands:hover{
-	color:#0097CA;
-	text-shadow: 1px 1px 3px white;
 }
