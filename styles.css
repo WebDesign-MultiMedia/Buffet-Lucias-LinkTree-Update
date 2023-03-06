@@ -31,7 +31,7 @@ body {
     .links{
         display: flex;
         justify-content: center;
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         position: absolute;
         bottom: 70px;
@@ -41,27 +41,42 @@ body {
         padding: 0.5em;
         color: #8E8E8E;
         text-shadow: 1px 1px 4px white;
+        position: relative;
+        bottom: 60vw;
+        left: 70%;
     }
     .fa-square-facebook{
         padding: 0.5em;
         color: #1877F2;
         text-shadow: 1px 1px 3px white;
+        position: relative;
+        bottom: 60vw;
+        left: 80%;
     }
     .fa-tiktok{
         color: #00f2ea;
         padding: 0.5em;
         text-shadow: 1px 1px 4px #ff0050;
+        position: relative;
+        bottom: 60vw;
+        left: 100%;
 
     }
     .fa-whatsapp{
         color: #25D366;
         padding: 0.5em;
         text-shadow: 1px 1px 4px white;
+        position: relative;
+        bottom: 40vw;
+        right: 3.5em;
 
     }
     .fa-map-location-dot{
         color: #22a022;
         text-shadow: 2px 1px 4px white;
+        position: relative;
+        bottom: 40vw;
+        right: 2em;
 
     }
 
@@ -79,6 +94,12 @@ body {
 @media only screen and (min-width: 600px) {
     body{
         background-color: pink;
+    }
+    #videoBG{
+        width: 100%;
+        display: flex;
+        z-index: -1;
+        height: auto;
     }
 }
 
