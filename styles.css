@@ -1,0 +1,179 @@
+body {
+	
+	background-color: #2F4858;
+	
+		
+	}
+
+/* Background VIDEO */
+#videoBG{
+    position: fixed;
+    z-index: -1;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    body{
+        background-color: red;
+    }
+    #videoBG{
+        width: auto;
+        height: 100%;
+    }
+  
+    .heading{
+        color: rgb(200, 200, 217);
+    } 
+
+    /* LINKS */
+
+    .links{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: absolute;
+    }
+
+    .fa-utensils{
+        padding: 0.5em;
+        color: #8E8E8E
+        ;
+    }
+    .fa-square-facebook{
+        padding: 0.5em;
+        color: #1877F2;
+    }
+    .fa-tiktok{
+        color: #00f2ea;
+        padding: 0.5em;
+
+    }
+    .fa-whatsapp{
+        color: #25D366;
+        padding: 0.5em;
+
+    }
+    .fa-map-location-dot{
+        color: #F4B400
+        ;
+
+    }
+        
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    body{
+        background-color: pink;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    body{
+        background-color: aquamarine;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    body{
+        background-color: yellow;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    body{
+        background-color: tomato;
+    }
+}
+    
+/*HEADING */
+
+.heading{
+	
+	text-align: center;
+	max-width: 100%;
+	position: relative;
+	top: 2em;
+	left: 0;
+	font-size: 3.8em;
+	 font-family: 'Almendra Display', cursive;
+	font-weight: bolder;
+	animation: color 6000ms ease-in-out 1;
+	
+	}
+    
+    /*
+	@keyframes color{
+	    25%{
+	        font-size: 100px;
+	        text-shadow: 1px 1px 4px green;
+	    }
+	    50%{
+	        font-size: 150px;
+	    }
+	    70%{
+	        font-size: 200px;
+	    }
+	    100%{ 
+	    	 font-size:3em;
+	         text-shadow: 1px 1px 4px red;
+	    }
+	} */
+	
+#buffet{
+	top: -1em;
+	left: 4.5em;
+	
+	
+}
+#lucia{
+	top: 0;
+	left: 7em;
+	
+}
+#fiesta{
+	top: 1em;
+	right: 8em;
+	
+}
+#mexicana{
+	top: 2em;
+	right: 4em;
+	
+}
+
+/* SOCIAL MEDIA */
+
+.link-tree{
+
+	display: flex;
+	justify-content: center;
+	flex-direction: row;
+	align-items: center;
+	position: relative;
+	top: 26em;
+	
+}
+
+.fa-solid{
+ 	font-size: 4em;
+ 	
+}
+.fa-solid:hover{
+	color: #0097CA;	
+	text-shadow: 1px 1px 3px white;
+	
+}
+
+.fa-brands{
+	font-size: 3.5em;
+}
+.fa-brands:hover{
+	color:#0097CA;
+	text-shadow: 1px 1px 3px white;
+}
