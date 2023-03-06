@@ -9,6 +9,7 @@ body {
 #videoBG{
     position: fixed;
     z-index: -1;
+    height: auto;
 }
 
 /* Extra small devices (phones, 600px and down) */
