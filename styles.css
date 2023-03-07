@@ -11,7 +11,7 @@ body {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     body{
-        animation: slideVideo 6s ease-in-out infinite;
+        animation: slideVideo 1s ease-in-out infinite;
         background-color: #00f2ea;
         
     }
