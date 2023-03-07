@@ -12,6 +12,7 @@ body {
 @media only screen and (max-width: 600px) {
     body{
         animation: slideVideo 6s ease-in-out infinite;
+        background-color: #00f2ea;
         
     }
     @keyframes slideVideo {
