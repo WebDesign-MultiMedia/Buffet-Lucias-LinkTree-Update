@@ -12,8 +12,12 @@ body {
 @media only screen and (max-width: 600px) {
     body{
         background-color: rgb(0, 26, 255);
-        animation: slideVideo 10s ease-in-out 10s 5 normal forwards;
-   
+    height: 95vh;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    animation: slideVideo 50s ease infinite 0s;
+    animation-timing-function: ease-in-out;
     }
 
     @keyframes slideVideo {
