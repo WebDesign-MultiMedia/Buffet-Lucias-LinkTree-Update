@@ -339,6 +339,81 @@ body{
    
     }
 
+            /* slideSHow*/
+            .mySlides{
+                width: 100%;
+                height: auto;
+                display: none;
+                
+            }
+            
+            .img-video-background{
+                max-width: 100%;
+                height: auto;
+                position:fixed;
+                left: 0;
+                top: 0;
+                right: 0;
+           }
+           .heading{
+            color: #1877F2;
+            text-align: center;
+            position: relative;
+            font-size: 7em;
+            top: 20px;
+           }
+
+               /* LINKS */
+    .link-tree{
+        position: relative;
+        display: flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items: center;
+    
+    }
+
+    .fa-utensils{
+        position: absolute;
+        color: gray;
+        left: 130px;
+        bottom: 260px;
+        font-size: 3em;
+    }
+
+    .fa-square-facebook{
+        color: #1877F2;
+        position: absolute;
+        font-size: 3em;
+        left: 850px;
+        bottom:260px;
+        
+    }
+
+    .fa-tiktok{
+        position: absolute;
+        color: #00f2ea;
+        left: 500px;
+        top: -470px;
+        font-size: 3em;
+    }
+
+    .fa-whatsapp{
+        color: #22a022;
+        font-size: 3em;
+        position: absolute;
+        left: 250px;
+        top: -220px;
+    }
+
+    .fa-map-location-dot{
+        position: absolute;
+        color: red;
+        top: -220px;
+        left: 670px;
+        font-size: 3em;
+    }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
