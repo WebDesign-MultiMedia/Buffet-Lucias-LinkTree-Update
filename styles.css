@@ -165,9 +165,10 @@ body{
     }
     
     .img-video-background{
-        max-width: 740px;
-        position: fixed;
-   }
+        max-width: 100%;
+        position: relative;
+
+    }
 
    /* HEADING */
    .heading{
@@ -181,10 +182,10 @@ body{
     .link-tree{
         position: absolute;
         bottom: 400px;
-        font-size: 4em;
+        font-size: 4.5em;
         display: flex;
-        right: 1.5em;
-        justify-content: space-evenly;
+        left: -30px;
+        justify-content: center;
         flex-direction:column;
         align-items: center;
     
@@ -218,9 +219,22 @@ body{
         
         .img-video-background{
             max-width: 100%;
-            left: 0;
-            top: 0;
+            height: auto;
+
        }
+    /* LINKS */
+    .link-tree{
+        position: absolute;
+        bottom: 400px;
+        font-size: 5.5em;
+        display: flex;
+        right: 1.5em;
+        justify-content: space-evenly;
+        flex-direction:column;
+        align-items: center;
+    
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
