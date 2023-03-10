@@ -12,9 +12,14 @@ body {
 @media only screen and (max-width: 600px) {
 
 body{
-    background-color: #8df200;
+    background-color: #000000;
 }
-  
+  .background-2{
+    max-width: 100%;
+    position:fixed;
+    z-index: -1;
+}
+
 .mySlides{
     width: 100%;
     height: auto;
