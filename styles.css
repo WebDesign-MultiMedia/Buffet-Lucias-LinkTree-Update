@@ -142,6 +142,64 @@ body{
     body{
         background-color: pink;
     }
+    /* image - 2*/
+    .background-images-2{
+        max-width: 100%;
+        position:fixed;
+        z-index: -1;
+
+    }
+    .background-2{
+            width: 100%;
+            height: auto;
+            z-index: -1;
+
+    }
+
+    /* slideSHow*/
+    .mySlides{
+        width: 100%;
+        height: auto;
+        display: none;
+        
+    }
+    
+    .img-video-background{
+        max-width: 740px;
+        position: fixed;
+   }
+
+   /* HEADING */
+   .heading{
+    position: absolute;
+    font-size: 5em;
+    text-align: center;
+    top: 100px;
+   }
+
+    /* LINKS */
+    .link-tree{
+        position: absolute;
+        bottom: 400px;
+        font-size: 4em;
+        display: flex;
+        right: 1.5em;
+        justify-content: space-evenly;
+        flex-direction:column;
+        align-items: center;
+    
+    }
+    .links{
+     text-indent: 3rem;
+    }
+
+
+
+
+
+
+
+
 
 }
 
@@ -150,6 +208,19 @@ body{
     body{
         background-color: aquamarine;
     }
+        /* slideSHow*/
+        .mySlides{
+            width: 100%;
+            height: auto;
+            display: none;
+            
+        }
+        
+        .img-video-background{
+            max-width: 100%;
+            left: 0;
+            top: 0;
+       }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
