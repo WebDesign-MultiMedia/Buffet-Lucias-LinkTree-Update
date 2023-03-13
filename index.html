@@ -19,6 +19,7 @@
     <img class="background-2" src="barbacoa-background.PNG" alt="">
  </div>
 
+    
  
             <div class="img-video-background">
                 <img class="mySlides" src="img-video/ezgif-frame-001.jpg" alt="img-video">
@@ -208,7 +209,6 @@
                 <img class="mySlides" src="img-video/ezgif-frame-185.jpg" alt="img-video">
                 <img class="mySlides" src="img-video/ezgif-frame-186.jpg" alt="img-video">
                 <img class="mySlides" src="img-video/ezgif-frame-187.jpg" alt="img-video">
-
                 <img class="mySlides" src="img-video/ezgif-frame-001.jpg" alt="img-video">
                 <img class="mySlides" src="img-video/ezgif-frame-002.jpg" alt="img-video">
                 <img class="mySlides" src="img-video/ezgif-frame-003.jpg" alt="img-video">
@@ -592,7 +592,7 @@
         <span id="buffet">Buffet</span>
         <span id="lucia">Lucia's</span>
         <span id="fiesta">Fiesta</span>
-        <a href="test.html"><span id="mexicana">Mexicana</span></a>
+        <span id="mexicana">Mexicana</span>
         </section>
         
         <section class="link-tree">
@@ -609,7 +609,7 @@
 
         <!-- Backgroung images --> 
         <script>
-            var myIndex = 0;
+            var myIndex = 9;
             carousel();
 
             function carousel(){
@@ -621,10 +621,10 @@
                 myIndex++;
                 if (myIndex > x.length) 
                 {
-                    myIndex = 0
+                    myIndex = 9
                 }
                 x[myIndex-1].style.display = "block";
-                setTimeout(carousel, 0105);
+                setTimeout(carousel, 0250);
             }
         </script>
 </body>
